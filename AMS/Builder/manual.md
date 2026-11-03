@@ -2,7 +2,14 @@
 
 Purpose: give an AI agent enough working knowledge of the Teamworks AMS (Smartabase) Builder to help Troy design, specify, review, and safely change forms.
 
-Compiled November 1, 2026 from the Teamworks Academy course "Teamworks AMS Builder 101: Basic Form Creation" (https://academy.smartabase.com) and the public AMS Help Center (https://help.teamworks.com/ams). Product behavior changes. When a detail matters, re-check the linked help article (slugs are listed in the Source index at the end). Lesson videos were not transcribed, so anything they alone cover is absent.
+Compiled November 1-3, 2026 from the Teamworks Academy courses Builder 101 (forms), 102 (calculations), 103 and 104 (dashboards) at https://academy.smartabase.com and the public AMS Help Center (https://help.teamworks.com/ams). Product behavior changes. When a detail matters, re-check the linked help article (slugs are listed in the Source index at the end of each file). Lesson videos were not transcribed, so anything they alone cover is absent.
+
+**Files in this folder:**
+- `manual.md` (this file): operating rules, form types, forms, fields, sections, visibility, tables, save buttons, safe changes, testing.
+- `calculations.md`: all calculation types, equation syntax, function families, ready-made recipes, linked/history/embedded data, debugging.
+- `dashboards.md`: the Dashboard Builder end to end (data sources, filters, every widget, rulesets, customization, printing, testing, troubleshooting).
+
+Read this file first, then the companion that matches the task. Admin topics (roles, data permissions, groups, restriction policy creation, importing) are outside Builder and were only touched where a Builder task depends on them.
 
 This file is generic product knowledge. It contains no site configuration, athlete data, or employer-confidential details, and it must stay that way.
 
@@ -208,6 +215,8 @@ Performance standards (color rules by field value; one standard applied per form
 
 ## 7. Calculations
 
+This section is a summary. For recipes, every calculation type, linked/history/embedded data, and debugging, use `calculations.md`. For dashboards use `dashboards.md`.
+
 ### 7.1 Choosing the type
 Decide (1) output type, then (2) data source.
 
@@ -319,4 +328,5 @@ Behavior: `Control-Field-and-Section-Visibility-During-Data-Entry`, `Add-a-Table
 Calculations: `introduction-to-calculations`, `using-functions`, `Using-Option-Fields-and-Scores-in-Calculations`, `linked-calculations`, `history-calculations`.
 Reporting/sidebar: `Customize-Reports-and-PDF-Exports-for-a-Form`, `Customize-the-Web-Sidebar-Settings`, `Configure-How-Event-Forms-Appear-as-Favorites`, `performance-standards`, `configure-athlete-status`, `ams-reports`, `export-data-from-ams`, `data-specification`.
 Changing/managing: `Update-an-Option-Field-in-a-Form`, `Change-the-Name-of-a-Field-with-the-Migrate-Fields-Tool`, `Change-the-Name-of-a-Form`, `Add-or-Update-a-Calculation-Field-in-an-Existing-Form`, `Remove-a-Field-From-a-Form`, `Duplicate-a-Form`, `Download-a-Form`, `Delete-a-Form`, `object-ownership`.
-Not read in full (consult before advising): `import-data`, `translations`, `user-defined-property-schemas`, `data-conflict-management`, `linked-data-in-forms`, `Enable-Quick-Edits-for-an-Event-Form`, `roles`, `groups`, `introduction-to-the-dashboard-builder` (dashboards belong to separate courses), `form-metadata`.
+Calculations and dashboards: see the source indexes in `calculations.md` and `dashboards.md`.
+Not read in full (consult before advising): `import-data`, `translations`, `user-defined-property-schemas`, `data-conflict-management`, `linked-data-in-forms`, `Enable-Quick-Edits-for-an-Event-Form`, `roles`, `groups`, `form-metadata`. Also not covered: Academy courses Teamworks AMS Fundamentals, Admin 101, Admin 102, and Integrations.
